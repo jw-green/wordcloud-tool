@@ -7,13 +7,14 @@ Uses the package `wordcloud` to generate WordClouds.
 ```plaintext
 .
 |-- README.md
-|-- mask.py
-`-- ref
-    |-- input_images
-    |-- srcTxt
-    `-- typefaces
-        |
-        `-- Raleway-Light.ttf
+|-- ref
+|   |-- input_images
+|   |   `-- example.png
+|   |-- srcTxt
+|   |   `-- example.txt
+|   `-- typefaces
+|       `-- Raleway-Light.ttf
+`-- wordCloud.py
 ```
 
 ## Installation Instructions
@@ -46,6 +47,6 @@ As suggested by the folder names, any images that are intended for use as the wo
 
 Text files (in .txt format) should be placed into the `ref/srcTxt` folder.
 
-Any additional typefaces can be placed in the `ref/typefaces` folder, but for use, must be amended in the main script.
+Any additional typefaces can be placed in the `ref/typefaces` folder, but for use, must be amended in the main script. Configuration file to follow to make this more convenient.
 
 ## Background
