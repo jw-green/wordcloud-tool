@@ -7,6 +7,8 @@ Uses the package `wordcloud` to generate WordClouds.
 ```plaintext
 .
 |-- README.md
+|-- output_images
+|   `-- example.png
 |-- ref
 |   |-- input_images
 |   |   `-- example.png

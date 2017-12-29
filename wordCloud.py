@@ -30,7 +30,7 @@ def createWordCloud(font_path, image, stopwords, text):
 
 
 def saveWordCloud(wordCloud, filename):
-    wordCloud.to_file(filename)
+    wordCloud.to_file("output_images/" + filename)
 
 
 def getValidInput( input_string ):
@@ -46,7 +46,7 @@ def getValidInput( input_string ):
 stopwords = set(STOPWORDS)
 
 filename = getValidInput("Text File Name: ")
-text = openFile('ref/srcTxt/' + filename)
+text = openFile("ref/srcTxt/" + filename)
 
 image_filename = getValidInput("Image File Name: ")
 bg_image = openImage("ref/input_images/" + image_filename)
